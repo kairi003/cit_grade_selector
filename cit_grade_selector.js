@@ -1,4 +1,4 @@
-{
+javascript:{
   let check_changed = e=>{
     gradeTable.querySelectorAll('.hidden').forEach(e=>e.classList.remove('hidden'));
     document.querySelectorAll('.term-check').forEach(cb=>{
