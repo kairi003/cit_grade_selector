@@ -4,7 +4,7 @@ javascript:{
     document.querySelectorAll('.term-check').forEach(cb=>{
       if (!cb.checked) {
         let term = cb.nextSibling.textContent;
-        for (e of gradeTable.getElementsByClassName(cb.nextSibling.textContent))
+        for (e of gradeTable.getElementsByClassName(term))
           e.classList.add('hidden');
       }
     });
