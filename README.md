@@ -12,7 +12,7 @@ citGradeSelector.js
 成績表が醜いときは[citGradeCheater.js](https://github.com/kairi003/cit_grade_cheater)をどうぞ．
 
 ## Usage
-citGradeSelector.min.js(うまく動かないときはcitGradeSelectorEncoded.min.js)の内容をコピーしてブックマークレットとして登録し，成績表のページで実行してください．
+[citGradeSelector.min.js](https://raw.githubusercontent.com/kairi003/cit_grade_selector/master/citGradeSelector.min.js)(うまく動かないときは[citGradeSelectorEncoded.min.js](https://raw.githubusercontent.com/kairi003/cit_grade_selector/master/citGradeSelectorEncoded.min.js))の内容をコピーしてブックマークレットとして登録し，成績表のページで実行してください．
 
 
 ブックマークレットについては[こちら](https://qiita.com/aqril_1132/items/b5f9040ccb8cbc705d04)を読んでね．
