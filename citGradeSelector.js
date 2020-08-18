@@ -3,7 +3,7 @@ javascript:{
     gradeTable.querySelectorAll('.hidden').forEach(e=>e.classList.remove('hidden'));
     document.querySelectorAll('.term-check').forEach(cb=>{
       if (!cb.checked) {
-        let term = cb.nextSibling.textContent;
+        let term = cb.name;
         for (e of gradeTable.getElementsByClassName(term))
           e.classList.add('hidden');
       }
@@ -38,6 +38,7 @@ javascript:{
       cb.className = 'term-check';
       cb.type = 'checkbox';
       cb.checked = true;
+      cb.name = term;
       cb.addEventListener('change', check_changed);
       label.appendChild(cb);
       label.appendChild(document.createTextNode(term));
